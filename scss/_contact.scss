@@ -1,0 +1,40 @@
+.contact {
+  color: $secondary-color;
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+  background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.3)
+    ),
+    url('../img/project-2.jpg') center top;
+  background-size: cover;
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .text-secondary {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  &__list {
+    display: grid;
+    grid-gap: 2rem;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .social-icons {
+    position: initial;
+    margin-top: 2rem;
+  }
+}
